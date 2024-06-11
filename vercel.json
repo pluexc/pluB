@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "pluB-frontend",
+  "builds": [
+    {
+      "src": "src/package.json",
+      "use": "@vercel/node",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "src/$1"
+    }
+  ]
+}
