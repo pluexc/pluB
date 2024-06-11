@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "plu-b",
   "builds": [
     {
       "src": "src/package.json",
